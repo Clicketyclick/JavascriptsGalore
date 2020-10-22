@@ -10,8 +10,5 @@ Returns a HTML entity that mimics an analog clock face w. ½ hour intervals
 
 🕝2020-09-25T14:40:46 
 
-[[Demo](test/clocktime.test.html)] [[Source](src/clocktime.js)] [[Github](ttps://github.com/Clicketyclick/JavascriptsGalore/)]
+[Demo](test/clocktime.test.html){: .button} [Source](src/clocktime.js){: .button} [Github](ttps://github.com/Clicketyclick/JavascriptsGalore/){: .button}
 
-<button onclick="window.location.href='test/clocktime.test.html'">Demo</button>
-
-[Click me](http://www.google.com){: .button}
