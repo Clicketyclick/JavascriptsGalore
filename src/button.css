@@ -1,0 +1,126 @@
+/**
+ *  @file button.css
+ *  @brief Basic button style
+ *  @details Includable style for simple buttons
+ *
+ *  @example <link rel="stylesheet" href="button.css">
+ *
+ */
+
+/**
+ *  @brief  button
+ *  
+ *  @example <span class='button' title='Button one'>Button 1</span>
+ *  
+ *  @details Button style with frame
+ */
+
+/* https://stackoverflow.com/a/710108 Button layout*/
+.button {
+    font:                   11px Arial;
+    text-decoration:        none;
+    background-color:       #EEEEEE;
+    background-color:       #FFFFFF;
+    color:                  #333333;
+    padding:                2px 6px 2px 6px;
+    border-top:             2px solid #666666;
+    border-right:           3px solid #000000;
+    border-bottom:          3px solid #000000;
+    border-left:            2px solid #666666;
+
+/* Rounded corners */
+    -webkit-border-radius:  4px;
+    -moz-border-radius:     4px;
+}
+.button:hover { /* Mouse over */
+    /*background-color:       #AAAAAA;*/
+    font-style: italic;
+    text-decoration: underline overline;
+}
+.button:active {	/* Press button */
+    color:                  red;
+    background-color:       #aeaeae;
+    position:relative;
+    top:1px;
+}
+.button:visited {
+    border-top:             3px solid #DDDDDD;
+    border-right:           5px solid #888888;
+    border-bottom:          5px solid #888888;
+    border-left:            3px solid #DDDDDD;
+}
+
+
+/* https://www.bestcssbuttongenerator.com/#/19 */
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	/*
+    background-color:#79bbff;
+	background-color:gray;
+	background-color:white;
+    */
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	padding:5px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton:visited {
+	color:yellow;
+	background-color:#378de5;
+}
+
+.myButton1 {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:#FFFFFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+    /*
+	font-family:Arial;
+	/*font-size:17px;*/
+	font-weight:bold;
+	padding:4px 11px;
+	text-decoration:none;
+    font:                   bold 11px Arial;
+	background-color:white;
+
+}
+.myButton1:hover {
+	background-color:#d1dff0;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+    background-color:#aeaeae;
+}
+.myButton1:visited {
+    background-color:       #BCC6CC;
+	background-color:#ededed;
+}
+
+
+
+/* End of File */
