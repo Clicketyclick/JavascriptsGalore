@@ -12,3 +12,7 @@ Returns a HTML entity that mimics an analog clock face w. ½ hour intervals
 
 [Demo](test/clocktime.test.html){: .button} [Source](src/clocktime.js){: .button} [Github](https://github.com/Clicketyclick/JavascriptsGalore/){: .button}
 
+
+### Button styling
+
+[Demo](test/button.test){: .button} [Source](src/button.css){: .button} [Github](https://github.com/Clicketyclick/JavascriptsGalore/){: .button}
