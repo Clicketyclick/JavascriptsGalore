@@ -18,7 +18,7 @@ Returns a HTML entity that mimics an analog clock face w. ½ hour intervals
 [Demo](test/button.test){: .button} [Source](src/button.css){: .button} [Github](https://github.com/Clicketyclick/JavascriptsGalore/){: .button}
 
 ### Get image size
-<script src="handleImage.js"></script>
+<script src="src/handleImage.js"></script>
 <img src="test/happy.gif" id='image' onLoad='addImageSizeToTitle(this);'>
 Use MouseOver to see image size
 
